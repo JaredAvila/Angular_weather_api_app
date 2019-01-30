@@ -9,7 +9,7 @@ const routes: Routes = [
     component: HomeComponent
   },
   {
-    path: "results",
+    path: "results/:city",
     component: ResultsComponent
   }
 ];
